@@ -1,0 +1,229 @@
+@import "reset.css";
+
+body {
+  background-color: #f4f4f4;
+  
+  font-family: 'Alice', serif;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  line-height: 1.5em;
+  color: #232323;
+}
+
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  letter-spacing: 0.1em;
+  line-height: 1.7em;
+  color: #232323;
+  padding: 30px;
+}
+h1.light {
+  color: rgb(247,247,247);
+}
+p {
+  padding: 20px;
+}
+.text-align-center {
+  text-align: center;
+}
+.text-align-right {
+  text-align: right;
+}
+img {
+  display: block;
+  width: 100%;
+}
+
+
+.header {
+  background-color: black;
+}
+.header_inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 25px 30px 25px 30px;
+}
+.logo_wrapper {
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+}
+.logo {
+  text-decoration: none;
+  font-family: 'Playfair Display', serif;
+  font-size: 31px;
+  letter-spacing: 0.03em;
+  line-height: 1.2em;
+  color: white;
+}
+.nav {
+  display: inline-block;
+  width: 69%;
+  vertical-align: middle;
+  text-align: right;
+}
+.nav a {
+  letter-spacing: 0.02em;
+  color: white;
+  text-decoration: none;
+  margin: 0 0 0 15px;
+}
+
+
+.main {
+  
+}
+.section {
+  
+}
+.section_inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 120px 50px 120px 50px;
+}
+.section.first {
+  position: relative;
+  min-height: 105vh;
+  
+  display: flex;
+  align-items: center;
+}
+.section.first:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  
+  background-image: url(images/karl-chor-11506-unsplash.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+.section.first:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.2);
+}
+.section.second {
+  background-color: black;
+}
+
+
+.footer {
+  background-color: black;
+}
+.footer_inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 25px 30px 25px 30px;
+}
+.footer p {
+  color: #F7F7F7;
+}
+.footer a {
+  color: #F7F7F7;
+}
+
+.button_wrapper {
+  text-align: center;
+  margin: 30px 0 30px 0;
+}
+.button {
+  display: inline-block;
+  text-decoration: none;
+  color: rgba(35,35,35, 1);
+  padding: 24px 40px 24px 40px;
+  border: 1px solid rgba(35,35,35, 0.8);
+  transition: color 0.2s linear 0s, background 0.2s linear 0s;
+}
+.button:hover {
+  color: white;
+  background-color: rgba(35,35,35, 1);
+}
+.button.light {
+  color: rgba(247,247,247,1);
+  border: 1px solid rgba(247,247,247, 0.8);
+}
+.button.light:hover {
+  color: black;
+  background-color: rgba(247,247,247, 0.8);
+}
+
+
+.cups {
+  overflow: hidden;
+  margin: 0 0 100px 0;
+}
+.column {
+  width: 50%;
+  float: left;
+}
+.cups_item {
+  
+}
+.cups_item_content {
+  margin: 25px;
+  position: relative;
+}
+.cups_item_caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  
+  display: flex;
+  align-items: center;
+}
+.cups_item_title {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  letter-spacing: 0.05em;
+  line-height: 1.4em;
+  color: white;
+  padding: 10px 10px 10px 20px;
+}
+.cups_item_description {
+  color: white;
+  max-width: 90%;
+  padding: 0 10px 10px 20px;
+}
+
+
+.links {
+  text-align: center;
+}
+.links a {
+  display: inline-block;
+  color: #F7F7F7;
+  text-decoration: none;
+  margin: 0 15px 0 15px;
+  padding: 0 2px 1px 2px;
+  border-bottom: 1px solid white;
+}
+
+
+.short {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.italic {
+  font-style: italic;
+  margin: 100px 0 0 0;
+}
+
+
+
+
+
+
